@@ -1,0 +1,59 @@
+.about-section {
+  background-color: rgb(244, 240, 240);
+}
+
+.container {
+  width: 66%;
+  text-align: center;
+}
+.sai {
+  flex-wrap: wrap;
+  display: flex;
+}
+.skill-set {
+  display: inline-block;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  background-color: rgba(153, 153, 153, 0.2);
+  border-radius: 5px;
+  font-weight: 600;
+  color: #666;
+}
+h4 {
+  font-weight: bold;
+  font-size: 2.4rem;
+}
+h3 {
+  padding-top: 100px;
+  margin-bottom: 80px;
+  font-weight: bold;
+  font-size: 3rem;
+}
+p {
+  font-family: sans-serif;
+}
+.skset {
+  display: inline-block;
+  /* flex-direction: row; */
+}
+.skill-head {
+  margin-bottom: 60px;
+}
+.abt-head {
+  margin-bottom: 60px;
+}
+.about {
+  margin-bottom: 90px;
+}
+
+.btn {
+  float: left;
+  width: 25%;
+  height: 9%;
+  font-weight: bold;
+}
+.role-abt {
+  margin-bottom: 70px;
+}

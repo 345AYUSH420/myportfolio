@@ -1,0 +1,61 @@
+.navbar-brand {
+  margin: 8px;
+  padding: 8px;
+}
+nav {
+  width: 100%;
+  margin-top: -100px;
+  background-color: white;
+  position: fixed;
+  z-index: 2;
+}
+.AshImage {
+  width: 80px;
+  height: 75px;
+  margin-left: 27px;
+}
+a {
+  font-weight: bold;
+  color: black;
+  margin: 20px;
+}
+a:hover {
+  color: blueviolet;
+  transition: 0.2s ease;
+}
+.collapse {
+  justify-content: end;
+}
+.toogle-div {
+  background-color: azure;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 9px;
+}
+#check {
+  display: none;
+}
+fa-icon {
+  font-size: 40px;
+  display: none;
+}
+
+@media (max-width: 993px) {
+  fa-icon {
+    display: block;
+    cursor: pointer;
+  }
+  .navbar-nav {
+    display: block !important;
+    position: fixed;
+    height: 50vh;
+    top: 90px;
+    left: -20px;
+    text-align: center;
+    background-color: red;
+    transition: all 0.3s;
+  }
+  #check:checked ~ nav {
+    background-color: black;
+  }
+}

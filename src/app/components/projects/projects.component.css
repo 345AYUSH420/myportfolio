@@ -1,0 +1,65 @@
+h3 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.prjheading {
+  margin-top: 80px;
+  text-align: center;
+}
+.cont {
+  padding-bottom: 40px;
+  background-image: url("../../../assets/4940019.jpg");
+  text-align: center;
+}
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  flex-wrap: wrap;
+}
+
+h4 {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.prj-head {
+  width: 50%;
+  display: inline-block;
+  align-items: center; /* Align items vertically in each item */
+}
+
+.prj-head img {
+  width: 100%;
+  height: 100%;
+  margin-top: 60px;
+  flex: 0 0 10%; /* Adjust the width of the image column */
+}
+
+p {
+  margin-top: 20px;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+h6 {
+  font-weight: bold;
+  margin-top: 30px;
+}
+img:hover {
+  transition: 0.3s ease black;
+}
+.btn {
+  background-color: blueviolet;
+  margin: 5px;
+
+  width: 170px;
+  height: 45px;
+  margin-top: 10px;
+}
+a {
+  color: white;
+  font-weight: bold;
+}

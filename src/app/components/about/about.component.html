@@ -1,0 +1,50 @@
+<div class="about-section" id="about">
+  <div class="container">
+    <div class="heading">
+      <h3>About Me</h3>
+    </div>
+    <div class="about">
+      <p>
+        Here you will find more information about me, what I do, and my current
+        skills mostly in terms of programming and technology
+      </p>
+    </div>
+    <div class="sai">
+      <div class="skills&intro col-lg-6 col-md-12 col-sm-12">
+        <div class="abt-head"><h4>Get to know me</h4></div>
+        <div class="role-abt">
+          <p>
+            I'm a <b>Frontend Web Developer</b> building the Front-end of
+            Websites and Web Applications that leads to the success of the
+            overall product. Check out some of my work in the Projects section.
+          </p>
+          <p>
+            I also like sharing content related to the stuff that I have learned
+            over the years in Web Development so it can help other people of the
+            Dev Community. Feel free to Connect or Follow me on my
+            <a
+              style="color: blueviolet"
+              href="https://www.linkedin.com/in/ayush-singhal--/"
+              >LinkedIn</a
+            >
+            where I post useful content related to Web Development and
+            Programming
+          </p>
+          <p>
+            I'm open to Job opportunities where I can contribute, learn and
+            grow. If you have a good opportunity that matches my skills and
+            experience then don't hesitate to contact me
+          </p>
+        </div>
+      </div>
+      <div class="skills&intro col-lg-6 col-md-12 col-sm-12">
+        <div class="skill-head">
+          <h4>My Skills</h4>
+        </div>
+        <div class="skset" *ngFor="let s of skills">
+          <div class="skill-set">{{ s.name }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,52 @@
+.cont {
+  background-color: rgb(235, 231, 231);
+  text-align: center;
+  padding-bottom: 40px;
+}
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+}
+.expheading {
+  padding-top: 100px;
+}
+h3 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.exp-head {
+  width: 50%;
+  display: block;
+  align-items: center; /* Align items vertically in each item */
+}
+
+.exp-head img {
+  margin-top: 60px;
+  flex: 0 0 10%; /* Adjust the width of the image column */
+}
+
+.exp-head p {
+  text-align: center;
+  margin-right: 50px; /* Add some spacing between the image and paragraph */
+  margin-top: 50px;
+}
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+h6 {
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+button {
+  margin-right: 20px;
+  float: right;
+  border-radius: 100px;
+  width: 70px;
+  height: 70px;
+}
+fa-icon {
+  color: white;
+}

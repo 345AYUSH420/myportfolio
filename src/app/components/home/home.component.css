@@ -1,0 +1,41 @@
+.cont {
+  background-image: url(../../../assets/4940019.jpg);
+  text-align: center;
+}
+.container {
+  margin-top: 90px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  padding: 93px;
+}
+.hero-about {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 60px;
+}
+.hero-projects {
+  padding-bottom: 93px;
+}
+.btn {
+  width: 250px;
+  height: 60px;
+  font-weight: bold;
+}
+.social {
+  height: 300px;
+  width: 70px;
+  margin-top: 8%;
+
+  background-color: white;
+  position: absolute;
+}
+img {
+  margin-top: 13px;
+}
+a {
+  color: white;
+  font-weight: boldl;
+  text-decoration: none;
+}
