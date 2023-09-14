@@ -6,25 +6,23 @@
     class="AshImage d-inline-block align-top"
     alt=""
   />
+
   <a class="navbar-brand" href="https://wa.me/7737766484" target="_blank"
     >AYUSH SINGHAL</a
   >
+
   <input type="checkbox" id="check" />
   <label for="check" class="checkbtn">
     <fa-icon [icon]="angellist"></fa-icon>
   </label>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link" (click)="toHome()" routerLink="Home">HOME</a>
-      <a class="nav-item nav-link" (click)="toAbout()" routerLink="About"
-        >ABOUT</a
-      >
-      <a class="nav-item nav-link" (click)="toProjects()" routerLink="Projects"
-        >PROJECTS</a
-      >
-      <a class="nav-item nav-link" (click)="toExp()" routerLink="Experience"
-        >EXPERIENCE</a
-      >
-    </div>
-  </div>
+  <ul class="navbar-nav">
+    <li><a (click)="toHome()" routerLink="Home">HOME</a></li>
+    <li><a (click)="toAbout()" routerLink="About">ABOUT</a></li>
+    <li>
+      <a (click)="toProjects()" routerLink="Projects">PROJECTS</a>
+    </li>
+    <li>
+      <a (click)="toExp()" routerLink="Experience">EXPERIENCE</a>
+    </li>
+  </ul>
 </nav>
