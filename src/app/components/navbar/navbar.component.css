@@ -33,10 +33,6 @@ a:hover {
   color: blueviolet;
   transition: 0.2s ease;
 }
-.collapse {
-  justify-content: end;
-}
-
 fa-icon {
   font-size: 40px;
   display: none;
@@ -46,7 +42,7 @@ fa-icon {
 }
 @media (min-width: 1320px) {
   .navbar-brand {
-    margin-left: -20%; /* Adjust the margin for smaller screens */
+    margin-left: -20%;
   }
 }
 @media (max-width: 994px) {
