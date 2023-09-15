@@ -1,5 +1,5 @@
 nav {
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   align-items: center;
   background-color: white;
@@ -13,11 +13,6 @@ nav {
   color: black;
 }
 
-.navbar-nav {
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
 .AshImage {
   width: 80px;
   height: 75px;
@@ -37,46 +32,15 @@ fa-icon {
   font-size: 40px;
   display: none;
 }
-#check {
-  display: none;
-}
+
 @media (min-width: 1320px) {
   .navbar-brand {
-    margin-left: -20%;
+    margin-left: -45%;
   }
 }
-@media (max-width: 994px) {
-  .AshImage {
-    margin-top: 7px;
-  }
-  fa-icon {
-    display: block;
-    background-color: black;
-  }
-  ul {
-    position: fixed;
-    width: 30%;
-    height: 100vh;
-    background: white;
-    top: 99px;
-    left: -70%;
-    text-align: center;
-    transition: all 0.5s;
-    z-index: 4;
-  }
-  nav ul li {
-    display: block;
-    margin: 40px;
-    line-height: 10px;
-  }
-  nav ul li a {
-    font-size: 20px;
-  }
-  a:hover {
-    background: none;
-    color: #0082e6;
-  }
-  #check:checked ~ ul {
-    left: 0;
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    display: none;
   }
 }
